@@ -1,0 +1,80 @@
+msgid ""
+# ┌────────────────────────────────────────────────────────────────┐
+# │ © srgklmntv - Professional development on the CS-Cart platform │
+# ├────────────────────────────────────────────────────────────────┤
+# │ Author   : Sergei Klementev                                    │
+# │ Email    : srgklmntv@gmail.com                                 │
+# │ Telegram : @srgklmntv                                          │
+# └────────────────────────────────────────────────────────────────┘
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::yclients_sync"
+msgid "YClients Sync"
+msgstr "YClients Sync"
+
+msgctxt "Addons::description::yclients_sync"
+msgid "The addon adds the functionality of synchronizing bookings with YClients. <a target=\"_blank\" href=\"https://t.me/srgklmntv\">© srgklmntv</a>."
+msgstr "The addon adds the functionality of synchronizing bookings with YClients. <a target=\"_blank\" href=\"https://t.me/srgklmntv\">© srgklmntv</a>."
+
+msgctxt "SettingsSections::yclients_sync::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::yclients_sync::yclients_partner_token"
+msgid "YClients API Partner token"
+msgstr "YClients API Partner token"
+
+msgctxt "SettingsOptions::yclients_sync::yclients_company_id"
+msgid "YClients API Company id"
+msgstr "YClients API Company id"
+
+msgctxt "SettingsOptions::yclients_sync::yclients_user_login"
+msgid "YClients API User login"
+msgstr "YClients API User login"
+
+msgctxt "SettingsOptions::yclients_sync::yclients_user_password"
+msgid "YClients API User password"
+msgstr "YClients API User password"
+
+msgctxt "SettingsTooltips::yclients_sync::yclients_partner_token"
+msgid "You can find the partner token in the developer's personal account on the \"Account Settings\" tab"
+msgstr "You can find the partner token in the developer's personal account on the \"Account Settings\" tab"
+
+msgctxt "SettingsTooltips::yclients_sync::yclients_company_id"
+msgid "You can find the company ID in your branch account on the \"Overview\" -> \"Summary\" tab"
+msgstr "You can find the company ID in your branch account on the \"Overview\" -> \"Summary\" tab"
+
+msgctxt "SettingsTooltips::yclients_sync::yclients_user_login"
+msgid "Enter YClients user login"
+msgstr "Enter YClients user login"
+
+msgctxt "SettingsTooltips::yclients_sync::yclients_user_password"
+msgid "Enter YClients user password"
+msgstr "Enter YClients user password"
+
+msgctxt "Languages::yclients_sync.bookings"
+msgid "YClients Bookings"
+msgstr "YClients Bookings"
+
+msgctxt "Languages::yclients_sync.bookings_menu_description"
+msgid "List of bookings in YClients service"
+msgstr "List of bookings in YClients service"
+
+msgctxt "Languages::yclients_sync.staff"
+msgid "Staff"
+msgstr "Staff"
+
+msgctxt "Languages::yclients_sync.client"
+msgid "Client"
+msgstr "Client"
+
+msgctxt "Languages::yclients_sync.visit_date"
+msgid "Visit date"
+msgstr "Visit date"
+
+msgctxt "Languages::yclients_sync.sync"
+msgid "Sync with YClients"
+msgstr "Sync with YClients"

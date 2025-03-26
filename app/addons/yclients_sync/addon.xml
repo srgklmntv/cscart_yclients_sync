@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!--
+ * ┌────────────────────────────────────────────────────────────────┐
+ * │ © srgklmntv - Professional development on the CS-Cart platform │
+ * ├────────────────────────────────────────────────────────────────┤
+ * │ Author   : Sergei Klementev                                    │
+ * │ Email    : srgklmntv@gmail.com                                 │
+ * │ Telegram : @srgklmntv                                          │
+ * └────────────────────────────────────────────────────────────────┘
+ -->
+<addon scheme="3.0">
+    <id>yclients_sync</id>
+    <priority>2000</priority>
+    <version>1.0</version>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <default_language>ru</default_language>
+    <supplier>srgklmntv</supplier>
+    <supplier_link>https://t.me/srgklmntv</supplier_link>
+    <authors>
+        <author>
+            <name>srgklmntv</name>
+            <email>srgklmntv@gmail.com</email>
+            <url>https://t.me/srgklmntv</url>
+        </author>
+    </authors>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="yclients_partner_token">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="yclients_company_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="yclients_user_login">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="yclients_user_password">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <functions>
+        <item for="install">fn_yclients_sync_install</item>
+        <item for="uninstall">fn_yclients_sync_uninstall</item>
+    </functions>
+</addon>
